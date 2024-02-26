@@ -1,0 +1,7 @@
+{
+  "Create comments": {
+    "prefix": "cms",
+    "body": ["/* */", " ", "/* */", " ", "/* */"],
+    "description": "Creates comments"
+  }
+}
