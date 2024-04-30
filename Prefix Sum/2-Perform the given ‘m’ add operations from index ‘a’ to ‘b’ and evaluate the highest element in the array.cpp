@@ -4,8 +4,6 @@
 
 */
 // ---------------------CODE-----------------------
-// C++ program for the above approach
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -52,10 +50,3 @@ int main()
 	cout << find(m, q);
 	return 0;
 }
-
-
-/*
-
-*/
-// ---------------------CODE-----------------------
-

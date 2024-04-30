@@ -1,13 +1,9 @@
-/* Time Complexity: O(n), where n is the size of input array.
-Auxiliary space: O(1), as no extra space is required.*/
-    
-// C++ program to find the second largest element
+//Given an array of integers, our task is to write a program that efficiently finds the second-largest element present in the array.
+/* 
+Time Complexity: O(n)
+Auxiliary space: O(1)
+*/
  
-#include <iostream>
-using namespace std;
- 
-// returns the index of second largest
-// if second largest didn't exist return -1
 int secondLargest(int arr[], int n) {
     int first = 0, second = -1;
     for (int i = 1; i < n; i++) {
@@ -22,6 +18,3 @@ int secondLargest(int arr[], int n) {
     }
     return second;
 }
-/* */
- 
-/* */

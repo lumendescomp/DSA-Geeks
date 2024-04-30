@@ -61,7 +61,6 @@ int main()
 }
 
 /*
-BETTER BUT NOT PREFIX SUM APPROACH
 Time Complexity: O(N)
 Auxiliary Space: O(1)
 */

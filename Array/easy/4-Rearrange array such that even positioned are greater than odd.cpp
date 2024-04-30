@@ -1,10 +1,11 @@
-/* Time Complexity: O(N * log N), where N is the size of input array arr[].
-Auxiliary Space: O(N)*/
- #include <bits/stdc++.h>
-using namespace std;
- 
-// function to rearrange the elements in array such that
-// even positioned are greater than odd positioned elements
+//Given an array arr[] of N elements, sort the array according to the following relations:  
+//arr[i] >= arr[i – 1], if i is even, ∀ 1 <= i < N
+//arr[i] <= arr[i – 1], if i is odd, ∀ 1 <= i < N
+
+/* 
+Time Complexity: O(N * log N)
+Auxiliary Space: O(N)
+*/
 void assign(int arr[], int N)
 {
     // Sort the array
@@ -25,13 +26,10 @@ void assign(int arr[], int N)
     for (int i = 0; i < N; i++)
         cout << ans[i] << " ";
 }
-/* Time Complexity: O(N), where N is the size of input array arr[].
-Auxiliary Space: O(1)*/
- #include <iostream>
-using namespace std;
- 
-// function to rearrange the elements in array such that
-// even positioned are greater than odd positioned elements
+/* 
+Time Complexity: O(N)
+Auxiliary Space: O(1)
+*/
 void rearrange(int arr[], int N)
 {
     for (int i = 0; i < N; i += 2) {
@@ -44,4 +42,3 @@ void rearrange(int arr[], int N)
             swap(arr[i + 1], arr[i]);
     }
 }
-/* */
